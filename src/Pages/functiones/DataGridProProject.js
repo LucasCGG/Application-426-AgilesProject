@@ -2,8 +2,6 @@ import * as React from 'react'
 
 import Box from '@mui/material/Box'
 import { DataGrid } from '@mui/x-data-grid'
-import { darken, lighten } from '@mui/material/styles';
-import { bgcolor } from '@mui/system';
 
 const columns = [
   { field: 'id', headerName: 'ID', width: 10 },
@@ -40,13 +38,13 @@ export default function DataGridProProject(props) {
       height: 400, 
       m:2,
       '& .super-app-theme--AVAILABLE': {
-        bgcolor: "green"
+        bgcolor: "#AAF683"
       },
       '& .super-app-theme--PENDING': {
-        bgcolor: "yellow"
+        bgcolor: "#FFD97D"
       },
       '& .super-app-theme--INACTIVE': {
-        bgcolor: "red"
+        bgcolor: "#FF9B85"
       }
       
     

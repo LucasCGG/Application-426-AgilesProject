@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 class User extends React.Component {
   constructor(props) {
@@ -38,6 +37,22 @@ class User extends React.Component {
       return (
       <>
         <h1> TEST LOGED OUT</h1>
+        <form>
+          <h4>Create Account</h4>
+          <input type="text" placeholder='Username or Email' />
+          <input type="password" placeholder='Password' />
+
+          <button>Sign In</button>
+        </form>
+
+
+        <form>
+          <h4>Sign In</h4>
+          <input type="text" placeholder='Username or Email' />
+          <input type="password" placeholder='Password' />
+
+          <button>Sign In</button>
+        </form>
         <hr/>
       </>
       )
